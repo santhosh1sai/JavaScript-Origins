@@ -105,17 +105,17 @@ m tall.
 m tall.
 GOOD LUCK  */
 
-const markHeight = 1.69;
+/* const markHeight = 1.69;
 const markMass = 78;
 const johnHeight = 1.95;
 const johnMass = 92;
 
-const markBMI = markMass / markHeight ** 2;
-const johnBMI = johnMass / johnHeight ** 2;
+const markBMI = Math.floor(markMass / markHeight ** 2);
+const johnBMI = Math.floor(johnMass / johnHeight ** 2);
 
 const markHigherBMI = markBMI > johnBMI;
 
-console.log(markBMI, johnBMI, markHigherBMI);
+console.log(markBMI, johnBMI, markHigherBMI); */
 
 /* Strings and Template Literlas 
 
@@ -154,8 +154,9 @@ Hint: Use an if/else statement �
 GOOD LUCK � 
  */
 
-if (markBMI > johnBMI) {
-  console.log(`Mark's BMI is higher than John's`);
+/* if (markBMI > johnBMI) {
+  console.log(`Mark's BMI ${markBMI} is higher than John's ${johnBMI}`);
 } else {
-  console.log(`John's BMI is higher than Mark's`);
+  console.log(`John's BMI ${johnBMI} is higher than Mark's ${markBMI}`);
 }
+ */
