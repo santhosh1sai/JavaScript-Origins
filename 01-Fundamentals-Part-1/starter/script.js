@@ -120,7 +120,7 @@ console.log(markBMI, johnBMI, markHigherBMI); */
 /* Strings and Template Literlas 
 
 const name= `I'm ${firstName}`
-Type conversion */
+ */
 
 /* const population = 331;
 const country = "USA";
@@ -160,3 +160,22 @@ GOOD LUCK �
   console.log(`John's BMI ${johnBMI} is higher than Mark's ${markBMI}`);
 }
  */
+
+/* Type conversion and Coercion 
+
+*/
+/* false values 0, '', undefined, null, NaN */
+
+/* Equality Operators == vs === */
+
+const numNeighbours = Number(
+  prompt("How many neighbour countries does your country have?")
+);
+
+if (numNeighbours === 1) {
+  console.log("Only 1 border!");
+} else if (numNeighbours > 1) {
+  console.log("More than 1 border");
+} else {
+  console.log("No borders");
+}
