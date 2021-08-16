@@ -26,7 +26,7 @@ GOOD LUCK  */
 //2. console.log the values and the string using template literal
 //3. remember to use let for changing values
 
-const printForecast = function (arr) {
+/* const printForecast = function (arr) {
   let j = 1;
   for (let i = 0; i < arr.length; i++) {
     console.log(`... ${arr[i]}ºC in ${j} days`);
@@ -34,4 +34,4 @@ const printForecast = function (arr) {
   }
 };
 
-printForecast([17, 21, 23]);
+printForecast([17, 21, 23]); */
