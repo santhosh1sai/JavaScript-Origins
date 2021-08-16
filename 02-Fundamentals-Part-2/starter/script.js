@@ -422,3 +422,6 @@ const calcAverage = function (arr) {
 };
 
 console.log(calcAverage(totals)); */
+const multiply = (a, b) => a * b;
+
+console.log(multiply(10, 5));
